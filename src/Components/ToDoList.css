@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background-color: #f8f8f8;
+    font-family: 'Poppins', sans-serif;
+}
+
+.GridCenter {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contains {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+#TODOH {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#LOP {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+    outline: none;
+}
+
+#AddTas {
+    width: 100%;
+    padding: 15px;
+    background-color: #4b59f7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#AddTas:hover {
+    background-color: #3d4edd;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+#LII {
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-wrap: break-word;
+    
+}
+
+#AddTa {
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#AddTa:hover {
+    background-color: #e0e0e0;
+}
+
+#AddTass {
+    width: 100%;
+    padding: 15px;
+    background-color: #e63946;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+
+#AddTass:hover {
+    background-color: #cc2e39;
+}
+#ul{
+    margin-top: 2rem;
+
+}
+#DFG{
+    margin-top: 0.5rem;
+}
+@media screen and (max-width:520px) {
+    .contains {
+        width: 63%;
+      }
+}
